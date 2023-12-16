@@ -1,0 +1,27 @@
+[buildPlans.ewka]
+family = "Ewka"
+no-cv-ss = true
+serifs = "sans"
+spacing = "normal"
+
+[buildPlans.ewka.variants.design]
+asterisk = "penta-low"
+at = "fourfold"
+capital-j = "descending-serifed-symmetric"
+capital-w = "straight"
+capital-z = "straight-serifless-with-horizontal-crossbar"
+caret = "low"
+f = "flat-hook"
+g = "double-storey-open"
+j = "serifless"
+l = "tailed"
+m = "short-leg"
+percent = "rings-continuous-slash"
+six = "closed-contour"
+seven = "bend-crossbar-serifed"
+y = "straight-turn"
+z = "straight-serifless-with-horizontal-crossbar"
+zero = "slashed-oval"
+
+[buildPlans.ewka.ligations]
+inherits = "dlig"

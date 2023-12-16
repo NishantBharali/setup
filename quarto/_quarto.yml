@@ -1,0 +1,10 @@
+project:
+  title: "multilang"
+toc: true
+warning: false
+number-sections: true
+highlight-style: arrow
+code-fold: show
+execute:
+  cache: true
+  freeze: auto

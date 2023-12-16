@@ -1,0 +1,99 @@
+#=============================================================================
+# dark_powered.toml --- dark powered configuration example for SpaceVim
+# Copyright (c) 2016-2017 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+    enable_language_specific_leader = false
+    # set spacevim theme. by default colorscheme layer is not loaded,
+    # if you want to use more colorscheme, please load the colorscheme
+    # layer
+    colorscheme = "molokai"
+    colorscheme_bg = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
+    enable_guicolors = true
+    # Disable statusline separator, if you want to use other value, please
+    # install nerd fonts
+    statusline_separator = "arrow"
+    statusline_inactive_separator = "arrow"
+    buffer_index_type = 4
+    enable_statusline_mode = false
+    windows_leader = ""
+    windows_smartclose = ""
+    enable_cursorline = 0
+    vimcompatible = true
+    bootstrap_after = 'myspacevim#after'
+    relativenumber = false
+    autocomplete_method = "coc"
+
+# Enable autocomplete layer
+[[layers]]
+    name = "default"
+    name = "colorscheme"
+
+[[layers]]
+    name = "fzf"
+
+[[layers]]
+    name = 'autocomplete'
+    auto-completion-return-key-behavior = "complete"
+    auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+    name = "lang#python"
+
+[[layers]]
+    name = "lang#r"
+
+[[layers]]
+    name = 'shell'
+    default_position = 'top'
+    default_height = 30
+
+[[layers]]
+    name = "core#tabline"
+    enable = false
+
+[[custom_plugins]]
+    repo = 'easymotion/vim-easymotion'
+
+[[custom_plugins]]
+    repo = 'justinmk/vim-sneak'
+
+[[custom_plugins]]
+    repo = 'machakann/vim-highlightedyank'
+
+[[custom_plugins]]
+    repo = 'szw/vim-maximizer'
+
+[[custom_plugins]]
+    repo = 'tommcdo/vim-exchange'
+
+[[custom_plugins]]
+    repo = 'inkarkat/vim-ReplaceWithRegister'
+
+[[custom_plugins]]
+    repo = 'unblevable/quick-scope'
+
+[[custom_plugins]]
+    repo = 'bronson/vim-visual-star-search'
+
+[[custom_plugins]]
+    repo = 'inkarkat/argtextobj.vim'
+
+[[custom_plugins]]
+    repo = 'michaeljsmith/vim-indent-object'
+
+[[custom_plugins]]
+    repo = 'kana/vim-textobj-entire'
+
+[[custom_plugins]]
+    repo = 'kana/vim-textobj-user'
+
+[[custom_plugins]]
+    repo = 'ntpeters/vim-better-whitespace'

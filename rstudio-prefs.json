@@ -1,0 +1,46 @@
+{
+    "jobs_tab_visibility": "shown",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "editor_keybindings": "vim",
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "zsh",
+    "save_workspace": "never",
+    "terminal_bell_style": "none",
+    "default_project_location": "~",
+    "toolbar_visible": false,
+    "initial_working_directory": "~",
+    "editor_theme": "Vibrant Ink",
+    "python_type": "conda",
+    "python_version": "3.11.4",
+    "python_path": "/opt/homebrew/Caskroom/mambaforge/base/envs/py/bin/python3.11",
+    "show_terminal_tab": false,
+    "insert_native_pipe_operator": true
+}

@@ -1,0 +1,8 @@
+format:
+  html:
+    code-copy: true
+    code-link: true
+    code-tools: true
+    theme:
+      dark: darkly
+      light: flatly

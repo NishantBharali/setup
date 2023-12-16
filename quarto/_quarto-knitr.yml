@@ -1,0 +1,22 @@
+execute:
+  echo: fenced
+format:
+  html:
+    code-copy: true
+    code-link: true
+    code-tools: true
+    theme:
+      dark: darkly
+      light: flatly
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    embed-resources: true
+    output-file: slides.html
+    theme: dark
+  pdf:
+    colorlinks: true
+    pdf-engine: wkhtmltopdf
+  docx: default
+  ipynb:
+    output-ext: "viewonly.ipynb"

@@ -1,0 +1,51 @@
+/*
+ * Place this file in ~/Library/KeyBindings
+ * Background:
+ * http://evantravers.com/articles/2019/04/03/my-keyboard-setup/
+ * https://jblevins.org/log/kbd
+ * https://github.com/nileshk/mac-configuration/blob/99eef47cd434fd3d6f4f1f9e2f50321f32179b88/Library/KeyBindings/DefaultKeyBinding.dict
+ * https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/TextDefaultsBindings/TextDefaultsBindings.html
+ */
+
+    "^ "      = "setMark:";                                            /* C-space */
+    "^A"     = "moveToBeginningOfLineAndModifySelection:";           /* C-a */
+    "^B"     = "moveBackwardAndModifySelection:";                     /* C-S-b */
+    "^E"     = "moveToEndOfLineAndModifySelection:";                 /* C-e */
+    "^F"     = "moveForwardAndModifySelection:";                      /* C-S-f */
+    "^/"      = ("undo:", "moveForward:");                             /* C-/ */
+    "^@"      = "setMark:";                                            /* C-@ */
+    "^_"      = ("undo:", "moveForward:");                             /* C-_ */
+    "^a"      = "moveToBeginningOfLine:";                              /* C-a */
+    "^e"      = "moveToEndOfLine:";                                    /* C-e */
+    "^g"      = "_cancelKey:";                                         /* C-g */
+    "^k"      = ("moveToEndOfLineAndModifySelection:", "cut:");        /* C-k */
+    "^t"      = "transpose:";                                          /* C-t */
+    "^u"      = ("moveToBeginningOfLineAndModifySelection:", "cut:");  /* C-u */
+    "^v"      = "pageDown:";                                           /* C-v */
+    "^w"      = ("moveWordBackwardAndModifySelection:", "cut:");       /* C-w */
+    "~B"     = "moveWordBackwardAndModifySelection:";                 /* M-S-b */
+    "~F"     = "moveWordForwardAndModifySelection:";                  /* M-S-f */
+    "~/"      = "complete:";                                           /* M-/ */
+    "~\010"   = "deleteWordBackward:";                                 /* M-backspace */
+    "~\177"   = "deleteWordBackward:";                                 /* M-delete */
+    "~^h"     = "deleteWordBackward:";                                 /* M-C-h */
+    "~b"      = "moveWordBackward:";                                   /* M-b */
+    "~c"      = ("capitalizeWord:", "moveForward:");                   /* M-c */
+    "~d"      = ("deleteWordForward:", "cut:");                        /* M-d */
+    "~f"      = "moveWordForward:";                                    /* M-f */
+    "~l"      = ("lowercaseWord:", "moveForward:");                    /* M-l */
+    "~t"      = "transposeWords:";                                     /* M-t */
+    "~u"      = ("uppercaseWord:", "moveForward:");                    /* M-u */
+    "~v"      = "pageUp:";                                             /* M-v */
+    "~w"      = "copy:";                                               /* A-w */
+
+    "^x" = {
+        "^x"  = "swapWithMark:";                                       /* C-x C-x */
+        "^m"  = "selectToMark:";                                       /* C-x C-m */
+        "^s"  = "save:";                                               /* C-x C-s */
+        "^w"  = "saveAs:";                                             /* C-x C-w */
+        "k"   = "performClose:";                                       /* C-x C-k */
+    };
+
+}
+
